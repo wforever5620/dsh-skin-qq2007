@@ -1,0 +1,140 @@
+﻿{
+    "url":  "http://127.0.0.1:\u003cport\u003e/ (local test instance)",
+    "passed":  23,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "plugin style tag is injected",
+                        "ok":  true,
+                        "detail":  {
+                                       "bytes":  47263
+                                   }
+                    },
+                    {
+                        "name":  "mode switch button is mounted",
+                        "ok":  true,
+                        "detail":  {
+                                       "mode":  "qq",
+                                       "label":  "QQ",
+                                       "role":  "switch"
+                                   }
+                    },
+                    {
+                        "name":  "skin attribute is on by default",
+                        "ok":  true
+                    },
+                    {
+                        "name":  "switch label reads QQ in skin mode",
+                        "ok":  true,
+                        "detail":  "QQ"
+                    },
+                    {
+                        "name":  "title bar uses the 2007 blue gradient",
+                        "ok":  true,
+                        "detail":  "linear-gradient(rgba(255, 255, 255, 0.22), rgba(0, 0, 0, 0) 38%), linear-gradient(rgb(25, "
+                    },
+                    {
+                        "name":  "sidebar band shares the title gradient",
+                        "ok":  true,
+                        "detail":  "linear-gradient(rgba(255, 255, 255, 0.22), rgba(0, 0, 0, 0) "
+                    },
+                    {
+                        "name":  "sidebar surface is the blue-silver gradient",
+                        "ok":  true,
+                        "detail":  "linear-gradient(rgb(239, 247, 255) 0%, rgb(226, 239, 252) 45%, rgb(214"
+                    },
+                    {
+                        "name":  "composer card has the 1px blue border",
+                        "ok":  true,
+                        "detail":  "rgb(127, 168, 208)"
+                    },
+                    {
+                        "name":  "conversation canvas is the light paper sheet",
+                        "ok":  true,
+                        "detail":  "linear-gradient(rgb(255, 255, 255) 0%, rgb(251, 253, 255) 55"
+                    },
+                    {
+                        "name":  "brand reads \"DeepSeek 2007\"",
+                        "ok":  true,
+                        "detail":  "\"DeepSeek 2007\""
+                    },
+                    {
+                        "name":  "brand mark paints the penguin avatar",
+                        "ok":  true,
+                        "detail":  "url(\"data:image/png;base64,iVB"
+                    },
+                    {
+                        "name":  "account row appends the online tag",
+                        "ok":  true,
+                        "detail":  "\" 路 鍦ㄧ嚎\""
+                    },
+                    {
+                        "name":  "no horizontal overflow",
+                        "ok":  true,
+                        "detail":  {
+                                       "overflowX":  0
+                                   }
+                    },
+                    {
+                        "name":  "frame keeps the full viewport box",
+                        "ok":  true,
+                        "detail":  [
+                                       1414,
+                                       807,
+                                       1414,
+                                       807
+                                   ]
+                    },
+                    {
+                        "name":  "switch turns the skin off",
+                        "ok":  true
+                    },
+                    {
+                        "name":  "native mode label",
+                        "ok":  true,
+                        "detail":  "鍘熺敓"
+                    },
+                    {
+                        "name":  "native mode persists to storage",
+                        "ok":  true,
+                        "detail":  "native"
+                    },
+                    {
+                        "name":  "native title bar drops the 2007 gradient",
+                        "ok":  true,
+                        "detail":  "none"
+                    },
+                    {
+                        "name":  "native brand mark is restored",
+                        "ok":  true,
+                        "detail":  "none"
+                    },
+                    {
+                        "name":  "reload keeps native mode",
+                        "ok":  true,
+                        "detail":  "native"
+                    },
+                    {
+                        "name":  "reload keeps QQ mode",
+                        "ok":  true,
+                        "detail":  "qq"
+                    },
+                    {
+                        "name":  "skin restores its styles after reload",
+                        "ok":  true,
+                        "detail":  {
+                                       "bytes":  47263
+                                   }
+                    },
+                    {
+                        "name":  "no console errors from the skin",
+                        "ok":  true,
+                        "detail":  [
+
+                                   ]
+                    }
+                ],
+    "consoleErrors":  [
+
+                      ]
+}

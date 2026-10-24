@@ -1,0 +1,6 @@
+# build output is committed on purpose: the Loader serves lib/client.js as-is
+node_modules/
+test-results/*.png
+*.log
+.DS_Store
+Thumbs.db
